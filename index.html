@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TT WORKSHOP | Private Auto Workshop</title>
+  <meta name="description" content="TT WORKSHOP - Private Workshop chuyên sửa chữa, bảo dưỡng, nâng cấp, detailing và đồng sơn ô tô. Mr. Công Tú trực tiếp tư vấn và xử lý." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="garageIntro" class="garage-intro" aria-hidden="true">
+    <div class="garage-light light-left"></div>
+    <div class="garage-light light-right"></div>
+    <div class="garage-door">
+      <div class="door-ribs"></div>
+      <div class="door-logo">
+        <span>TT</span>
+        <strong>TT WORKSHOP</strong>
+        <small>Private Auto Workshop</small>
+      </div>
+      <div class="door-warning">GARAGE OPENING</div>
+    </div>
+    <div class="garage-floor"></div>
+    <button id="enterBtn" class="enter-btn" type="button">Mở cửa xưởng</button>
+  </div>
+
+  <div id="welcomePopup" class="welcome-popup" role="dialog" aria-modal="true" aria-labelledby="welcomeTitle">
+    <div class="popup-card">
+      <button class="screw-close" id="closePopup" aria-label="Đóng popup" type="button"><span></span><span></span></button>
+      <p class="eyebrow">Private Auto Workshop</p>
+      <h2 id="welcomeTitle">Chào mừng quý khách đến với TT WORKSHOP</h2>
+      <p>Đây là không gian dành cho những chủ xe muốn chiếc xe của mình được kiểm tra kỹ, xử lý đúng vấn đề và nâng cấp theo gu riêng.</p>
+      <p>Hãy dành ít phút khám phá các dịch vụ sửa chữa chuyên sâu, bảo dưỡng tận nhà, độ ngoại thất, nội thất xe sang, detailing và đồng sơn PDR tại TT WORKSHOP.</p>
+      <div class="popup-actions">
+        <button id="discoverBtn" class="btn primary" type="button">Khám phá dịch vụ</button>
+        <a class="btn ghost" href="tel:0902127979">Gọi tư vấn</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="TT Workshop home">
+      <span>TT</span>
+      <div><strong>TT WORKSHOP</strong><small>Private Auto Workshop</small></div>
+    </a>
+    <nav class="nav">
+      <a href="#home">Trang chủ</a>
+      <a href="#about">Giới thiệu</a>
+      <a href="#services">Dịch vụ</a>
+      <a href="#booking">Đặt lịch</a>
+      <a href="https://www.google.com/maps/place/XP7F%2BQR4+Hi%E1%BA%BFu+X%C4%83m+Tatoo+B%C3%ACnh+D%C6%B0%C6%A0NG,+Thu%E1%BA%ADn+Giao,+H%E1%BB%93+Ch%C3%AD+Minh/data=!4m2!3m1!1s0x3174da00641fee61:0x1ecbc4d7e0ae784e!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjIyLjQYACCenQoqgQEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTlCAlZO&skid=be8c0c73-532a-40b0-9cc9-dc2283426c31&g_st=az" target="_blank" rel="noopener">Bản đồ</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="headlight"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Mr. Công Tú trực tiếp kiểm tra & tư vấn</p>
+        <h1>TT WORKSHOP – Chuyên gia bắt bệnh & nâng cấp ô tô chuyên sâu</h1>
+        <p class="hero-desc">Mô hình Private Workshop đề cao sự tỉ mỉ, tay nghề và chất lượng cốt lõi. Từ khắc phục pan bệnh khó đến cá nhân hóa nội thất xe sang, mỗi chiếc xe đều được chăm chút như một dự án riêng.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="tel:0902127979">Gọi/Zalo: 0902 127 979</a>
+          <a class="btn glass" href="#services">Xem dịch vụ</a>
+        </div>
+      </div>
+      <div class="hero-card reveal delay-1">
+        <span class="gear">⚙</span>
+        <strong>Bảo dưỡng & sửa chữa tận nhà</strong>
+        <p>Phù hợp khách hàng bận rộn, cần kiểm tra xe nhanh và có phương án xử lý rõ ràng.</p>
+      </div>
+    </section>
+
+    <section class="quickbar reveal">
+      <a href="tel:0902127979"><b>Hotline/Zalo</b><span>0902 127 979</span></a>
+      <a href="https://www.google.com/maps/place/XP7F%2BQR4+Hi%E1%BA%BFu+X%C4%83m+Tatoo+B%C3%ACnh+D%C6%B0%C6%A0NG,+Thu%E1%BA%ADn+Giao,+H%E1%BB%93+Ch%C3%AD+Minh/data=!4m2!3m1!1s0x3174da00641fee61:0x1ecbc4d7e0ae784e!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjIyLjQYACCenQoqgQEsOTQyNjc3MjcsOTQyOTIxOTUsOTQyOTk1MzIsMTAwNzk2NDk4LDEwMDc5Nzc2MSwxMDA3OTY1MzUsOTQyODA1NzYsOTQyMDczOTQsOTQyMDc1MDYsOTQyMDg1MDYsOTQyMTg2NTMsOTQyMjk4MzksOTQyNzUxNjgsOTQyNzk2MTlCAlZO&skid=be8c0c73-532a-40b0-9cc9-dc2283426c31&g_st=az" target="_blank" rel="noopener"><b>Google Maps</b><span>Xem đường đến gara</span></a>
+      <a href="#booking"><b>Đặt lịch</b><span>Gửi SMS nhanh</span></a>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-text reveal">
+        <p class="eyebrow">Giới thiệu</p>
+        <h2>TT WORKSHOP – Khi kỹ thuật đạt cảnh giới của sự đam mê</h2>
+        <p>TT WORKSHOP không định vị mình là một showroom hào nhoáng. Đây là một Private Workshop, nơi tay nghề, sự tỉ mỉ và phương án xử lý đúng được đặt lên hàng đầu.</p>
+        <p>Mỗi chiếc xe khi đến xưởng đều được chuyên gia Công Tú kiểm tra, tư vấn và đưa ra hướng xử lý phù hợp với tình trạng thực tế, nhu cầu sử dụng và ngân sách của khách hàng.</p>
+      </div>
+      <div class="about-panel reveal delay-1">
+        <div class="panel-line"></div>
+        <strong>Chất lượng thay vì số lượng</strong>
+        <span>Nhận xe vừa đủ để kiểm tra kỹ, tư vấn rõ và xử lý có trách nhiệm.</span>
+      </div>
+    </section>
+
+    <section class="section values" id="difference">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Khác biệt cốt lõi</p>
+        <h2>Làm đúng từ chẩn đoán đến hoàn thiện</h2>
+      </div>
+      <div class="value-grid">
+        <article class="value-card reveal"><span>01</span><h3>Bắt đúng bệnh</h3><p>Kiểm tra theo tình trạng thực tế, hạn chế thay thế lan man.</p></article>
+        <article class="value-card reveal delay-1"><span>02</span><h3>Tư vấn đúng nhu cầu</h3><p>Đưa phương án phù hợp mục đích sử dụng và ngân sách khách hàng.</p></article>
+        <article class="value-card reveal delay-2"><span>03</span><h3>Vật tư chọn lọc</h3><p>Ưu tiên phụ tùng, dung dịch và đồ chơi có nguồn gốc rõ ràng.</p></article>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Dịch vụ nổi bật</p>
+        <h2>5 nhóm dịch vụ chính tại TT WORKSHOP</h2>
+      </div>
+      <div class="road-line" aria-hidden="true"><div class="car-run">▱</div></div>
+
+      <article class="service reveal">
+        <div class="service-copy"><span class="num">01</span><h3>🔧 Sửa chữa chuyên sâu & bảo dưỡng tận nhà</h3><p>Bắt đúng bệnh - Sửa đúng chỗ. Chuyên gia Công Tú trực tiếp xử lý hệ thống điện, động cơ, gầm bệ cho xe sang như Mercedes, BMW, Audi và các dòng phổ thông. Cung cấp đặc quyền sửa chữa & bảo dưỡng tận nhà.</p></div>
+        <div class="media-row"><div class="media photo">Ảnh thi công</div><div class="media video">▶ Video dịch vụ</div><div class="media photo">Ảnh trước / sau</div></div>
+        <a href="#booking" class="btn dark">Xem chi tiết dịch vụ Sửa chữa</a>
+      </article>
+
+      <article class="service reveal">
+        <div class="service-copy"><span class="num">02</span><h3>🏎️ Độ xe, ngoại thất & nâng cấp option</h3><p>Tư vấn & order trực tiếp bodykit, đèn Bi-LED/Laser và đồ chơi công nghệ. Thế mạnh đặc biệt: order mâm & pô Nhật, mâm rèn Forged, hệ thống ống xả thể thao.</p></div>
+        <div class="media-row"><div class="media photo">Mâm / Pô</div><div class="media video">▶ Video tuning</div><div class="media photo">Bodykit</div></div>
+        <a href="#booking" class="btn dark">Xem chi tiết Nâng cấp & Độ xe</a>
+      </article>
+
+      <article class="service reveal">
+        <div class="service-copy"><span class="num">03</span><h3>🛋️ Cá nhân hóa nội thất xe sang</h3><p>Đích thân chuyên gia thi công bọc da Nappa cao cấp, độ ghế Limousine/VIP, trần sao, đổi màu nội thất với độ hoàn thiện tinh xảo.</p></div>
+        <div class="media-row"><div class="media photo">Da Nappa</div><div class="media video">▶ Video nội thất</div><div class="media photo">Trần sao</div></div>
+        <a href="#booking" class="btn dark">Xem chi tiết Nâng cấp Nội thất</a>
+      </article>
+
+      <article class="service reveal">
+        <div class="service-copy"><span class="num">04</span><h3>✨ Chăm sóc xe cao cấp – Premium Detailing</h3><p>Cam kết sử dụng dung dịch chăm sóc xe chính hãng từ Sonax, CarPro, Meguiar's, Gyeon, Koch Chemie... cho quy trình làm sạch, hiệu chỉnh và bảo vệ bề mặt xe.</p></div>
+        <div class="media-row"><div class="media photo">Đánh bóng</div><div class="media video">▶ Video detailing</div><div class="media photo">Phủ bảo vệ</div></div>
+        <a href="#booking" class="btn dark">Xem chi tiết Detailing</a>
+      </article>
+
+      <article class="service reveal">
+        <div class="service-copy"><span class="num">05</span><h3>🛠️ Đồng sơn & vỗ nguội PDR</h3><p>Kỹ thuật vỗ nguội kéo móp không tì vết, bảo toàn lớp sơn zin. Dịch vụ đồng sơn đổi màu toàn xe với hệ thống sơn cao cấp chuẩn mã màu nhà máy.</p></div>
+        <div class="media-row"><div class="media photo">PDR</div><div class="media video">▶ Video đồng sơn</div><div class="media photo">Hoàn thiện</div></div>
+        <a href="#booking" class="btn dark">Xem chi tiết Đồng Sơn</a>
+      </article>
+    </section>
+
+    <section class="section booking" id="booking">
+      <div class="booking-copy reveal">
+        <p class="eyebrow">Đặt lịch</p>
+        <h2>Đặt lịch dịch vụ / tư vấn cùng chuyên gia Công Tú</h2>
+        <p>Điền thông tin bên dưới, hệ thống sẽ tự tạo tin nhắn SMS gửi đến hotline của xưởng để được phản hồi nhanh.</p>
+      </div>
+      <form class="booking-form reveal delay-1" id="smsForm">
+        <input id="name" type="text" placeholder="Họ và tên" required>
+        <input id="car" type="text" placeholder="Dòng xe đang sử dụng, ví dụ Mercedes GLC 300" required>
+        <select id="serviceSelect" required>
+          <option value="">Dịch vụ quan tâm</option>
+          <option>Bảo dưỡng tận nhà</option>
+          <option>Bắt bệnh sửa chữa</option>
+          <option>Độ xe / nâng cấp option</option>
+          <option>Nội thất xe sang</option>
+          <option>Detailing cao cấp</option>
+          <option>Đồng sơn / PDR</option>
+        </select>
+        <input id="date" type="date" required>
+        <button class="btn primary" type="submit">Gửi SMS đặt lịch ngay</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <strong>TT WORKSHOP</strong>
+    <span>Mr. Công Tú • Hotline/Zalo: 0902 127 979 • Đường Thuận Giao 01, phường Thuận Giao, TPHCM</span>
+  </footer>
+
+  <div class="floating-actions">
+    <a href="tel:0902127979">Gọi</a>
+    <a href="sms:0902127979">SMS</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
