@@ -52,6 +52,19 @@
     }
   });
 
+
+  // Logo fallback: ưu tiên logo trong /trangchu/images/, nếu thiếu thì thử logo ở thư mục gốc.
+  $$('.brand-logo').forEach((logo) => {
+    logo.addEventListener('error', () => {
+      const fallback = logo.dataset.fallback;
+      if (fallback && logo.src !== new URL(fallback, window.location.origin).href) {
+        logo.src = fallback;
+      } else {
+        logo.classList.add('logo-hidden');
+      }
+    });
+  });
+
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
